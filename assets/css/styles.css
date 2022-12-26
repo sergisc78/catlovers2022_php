@@ -8,3 +8,23 @@ body {
 
 }
 
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.fa-solid{
+    font-size:60px;
+}
+
+.container{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-fluid {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-footer{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}

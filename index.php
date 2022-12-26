@@ -6,12 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cats</title>
-    <!-- CSS only -->
+
+    <!-- BOOTSTRAP CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
+    <!-- AJAX-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- CSS STYLESHEET-->
     <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -36,10 +46,6 @@
                     <li class="nav-item">
                         <a class="nav-link btn btn-outline-primary me-2 buttons" href="./views/login.php">Login</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-outline-success buttons" href="./views/register.php">Register</a>
-                    </li>
-
                 </ul>
 
             </div>
@@ -61,10 +67,10 @@
 
     <div class="container">
         <div class="row">
-            <p class="text-center p-5">Welcome catlover</p>
-            <p class="text-center">Please login or register</p>
-            <div class="d-grid gap-2 d-md-block text-center p-2">
-                <a href="./views/login.php" class="btn btn-primary btn btn-lg" type="button">Login</a>
+            <p class="text-center p-5 mb-0">Are you a catlover?. Would you like to adopt a cat?</p>
+            <p class="text-center">Please, Login or Register. They're waiting for you !</p>
+
+            <div class="d-grid gap-2 d-md-block text-center p-4">
                 <a href="./views/register.php" class="btn btn-success btn btn-lg" type="button">Register</a>
             </div>
         </div>
