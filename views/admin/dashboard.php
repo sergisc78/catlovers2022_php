@@ -44,11 +44,11 @@
 
 
 
-    <h4 class="text-center">All cats</h4>
+    <h4 class="text-center mt-4" id="title">All cats</h4>
 
-    <div class="container">
+    <div class="container" id="allcats">
 
-        <a href="addCat.php" class="btn btn-primary mb-5">Add new cat</a>
+        <a href="addCat.php" class="btn btn-primary mb-5 add">Add new cat</a>
 
         <div class="row">
 
@@ -78,10 +78,10 @@
                                 <td><?php echo $cats['cat_category'] ?> </td>
 
                                 <!-- EDIT CAT -->
-                                <td><a href=" editCat.php?id=<?php echo $cats['id'] ?>&image=<?php echo $cats['cat_image'] ?>&name=<?php echo $cats['cat_name'] ?>&sex=<?php echo $cats['cat_sex'] ?>&age=<?php echo $cats['cat_age'] ?>&category=<?php echo $cats['cat_category'] ?>&descr=<?php echo $cats['cat_description'] ?>" class="btn btn-small btn-warning"><i class="fa-solid fa-pen-to-square" title="View / Edit Cat"></i></a>
+                                <td><a href=" editCat.php?id=<?php echo $cats['id'] ?>&image=<?php echo $cats['cat_image'] ?>&name=<?php echo $cats['cat_name'] ?>&sex=<?php echo $cats['cat_sex'] ?>&age=<?php echo $cats['cat_age'] ?>&category=<?php echo $cats['cat_category'] ?>&descr=<?php echo $cats['cat_description'] ?>" class="btn btn-small btn-warning"><i class="fa-solid fa-pen-to-square edit" title="View / Edit Cat"></i></a>
 
                                     <!-- DELETE CAT -->
-                                    <a href="deleteCat.php?id=<?php echo $cats['id'] ?>" data-id="<?php echo $cats['id'] ?>" class="btn btn-small btn-danger deleteButton" name="delete" id="delete"><i class="fa-solid fa-trash" title="Delete Cat"></i></button>
+                                    <a href="deleteCat.php?id=<?php echo $cats['id'] ?>" data-id="<?php echo $cats['id'] ?>" class="btn btn-small btn-danger deleteButton" name="delete" id="delete"><i class="fa-solid fa-trash delete" title="Delete Cat"></i></button>
 
                                 </td>
                             </tr>
@@ -132,10 +132,6 @@
                                         }).then(function() {
                                             location.reload();
                                         });
-
-
-
-
                                     } else {
                                         swal("Error ! Cat can't be deleted !");
                                     }

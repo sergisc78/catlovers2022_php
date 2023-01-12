@@ -8,23 +8,54 @@ body {
 
 }
 
-.navbar-brand{
+
+/*INDEX.PHP*/
+
+.navbar-brand {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
-}
-.fa-solid{
-    font-size:60px;
 }
 
-.container{
+.fa-solid {
+    font-size: 60px;
+}
+
+.container {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .container-fluid {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
-.card-footer{
+
+.card-footer {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
+
+/*ADMIN */
+/*DASHBOARD.PHP */
+#allcats,#allusers {
+    font-size: 20px;
+}
+
+.delete,
+.edit {
+    font-size: 25px;
+}
+
+.add {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+
+}
+
+/*USERS.PHP */
+

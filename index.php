@@ -65,7 +65,7 @@
 
     ?>
 
-    <div class="container">
+    <div class="container" id="welcome">
         <div class="row">
             <p class="text-center p-5 mb-0">Are you a catlover?. Would you like to adopt a cat?</p>
             <p class="text-center">Please, Login or Register. They're waiting for you !</p>
