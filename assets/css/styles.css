@@ -9,7 +9,7 @@ body {
 }
 
 
-/*INDEX.PHP*/
+/*INDEX.PHP,LOGIN.PHP,REGISTER.PHP*/
 
 .navbar-brand {
     font-size: 30px;
@@ -35,6 +35,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*LOGIN.PHP,REGISTER.PHP*/
+
+#loginform,#registerform{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+}
+
+
 /*ADMIN */
 /*DASHBOARD.PHP */
 #allcats,#allusers {
@@ -57,5 +65,12 @@ h4 {
 
 }
 
+
 /*USERS.PHP */
 
+/*EDITCAT.PHP*/
+
+#editcat,#edituser{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}

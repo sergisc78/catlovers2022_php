@@ -13,13 +13,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- STYLES -->
-    <link rel="stylesheet" href="../assets/styles.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 
     <!-- JS VALIDATIONS -->
     <script src="../assets/js/login.js"></script>
 
     <!--ALERTIFY CSS -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+
+     <!-- GOOGLE FONTS -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap" rel="stylesheet">
 
      
 </head>
@@ -64,10 +69,10 @@
         </div>
     </nav>
 
-    <div class="container mt-5">
+    <div class="container mt-3">
         <div class="row-content d-flex justify-content-center">
             <div class="col-md-5">
-                <div class="box-shadow bg-white p-4">
+                <div class="box-shadow bg-white p-4" id="loginform">
                     <h3 class="mb-4 text-center fs-1">Login</h3>
                     <form class="mb-3" action="" method="post">
                         <div class="form-floating mb-3">

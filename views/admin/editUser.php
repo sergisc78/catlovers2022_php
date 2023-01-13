@@ -1,4 +1,7 @@
 <?php
+
+session_start();
+
 require_once('../templates/header_admin.php');
 
 require_once('../../controllers/UpdateUserController.php');
@@ -21,7 +24,7 @@ $role = $_GET['role'];
 
 <div class="container mt-5" style="width: 15000px;">
     <div class="row  justify-content-center align-items-center ">
-        <div class="col-5">
+        <div class="col-5" id="edituser">
             <div class="card">
                 <div class="card-body">
                     <form class="text-center" method="post">

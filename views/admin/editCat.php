@@ -39,7 +39,7 @@ $cat_description = $_GET['descr'];
 
 <div class="container mt-5" style="width: 15000px;">
     <div class="row  justify-content-center align-items-center ">
-        <div class="col-5">
+        <div class="col-5" id="editcat">
             <div class="card">
                 <div class="card-body">
                     <form class="text-center" method="post" enctype="multipart/form-data">

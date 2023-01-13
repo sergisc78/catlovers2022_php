@@ -15,7 +15,7 @@
 
     <!-- CSS STYLES -->
 
-    <link rel="stylesheet" href="../assets/styles.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 
     <!--ALERTIFY CSS -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
@@ -69,10 +69,10 @@
         </div>
     </nav>
 
-    <div class="container mt-3">
+    <div class="container mt-3 mb-3">
         <div class="row-content d-flex justify-content-center">
             <div class="col-md-5">
-                <div class="box-shadow bg-white p-4">
+                <div class="box-shadow bg-white p-4" id="registerform">
                     <h3 class="mb-4 text-center fs-1">Register</h3>
                     <form class="mb-3" action="" method="post">
                         <div class="form-floating mb-3">
@@ -98,6 +98,9 @@
             </div>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
     <br>
 
 

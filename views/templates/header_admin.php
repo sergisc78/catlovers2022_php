@@ -29,7 +29,14 @@
 
     <style>
         table thead {
-            background-color: #40ba12;
+            background: #373B44;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #4286f4, #373B44);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
             margin-top: 100px;
         }
 
@@ -117,9 +124,6 @@
             $('#table').DataTable();
             responsive: true;
         });
-
-
-      
     </script>
 
 

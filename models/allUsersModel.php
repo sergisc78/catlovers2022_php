@@ -35,6 +35,9 @@ class allUsersModel
     {
         if (isset($_POST['edit'])) {
 
+            // SOLUTION FOR MESSAGE: Cannot modify header information - headers already sent by
+            ob_start();
+
             $id = isset($_POST['id']) ? $_POST['id'] : '';
             $roleId = isset($_POST['roleId']) ? $_POST['roleId'] : '';
 
@@ -47,14 +50,14 @@ class allUsersModel
             $result->execute();
 
             if ($result) {
-                echo '<div class="alert alert-success alert-dismissible fade show fixed-top" role="alert" style="margin-top:150px;width:370px;margin-left: auto;margin-right: 40px;">
+                echo '<div class="alert alert-success alert-dismissible fade show fixed-top" role="alert" style="margin-top:150px;width:370px;margin-left: auto;margin-right: 40px;font-size:18px;font-family: Montserrat, sans-serif;">
                 User role updated successfully !
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>';
 
                 header("refresh:5;url=users.php");
             } else {
-                echo '<div class="alert alert-danger alert-dismissible fade show fixed-top" role="alert" style="margin-top:150px;width:370px;margin-left: auto;margin-right: 40px;">
+                echo '<div class="alert alert-danger alert-dismissible fade show fixed-top" role="alert" style="margin-top:150px;width:370px;margin-left: auto;margin-right: 40px;font-size:18px;font-family: Montserrat, sans-serif;">
                 User role not be updated !. Something wrong happened !
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>';
