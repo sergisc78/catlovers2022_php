@@ -26,6 +26,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap" rel="stylesheet">
 
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
      
 </head>
 
@@ -71,7 +75,7 @@
 
     <div class="container mt-3">
         <div class="row-content d-flex justify-content-center">
-            <div class="col-md-5">
+            <div class="col-md-5" >
                 <div class="box-shadow bg-white p-4" id="loginform">
                     <h3 class="mb-4 text-center fs-1">Login</h3>
                     <form class="mb-3" action="" method="post">

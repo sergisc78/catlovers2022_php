@@ -26,6 +26,11 @@
     <!--SWEET ALERT -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
 </head>
 
 
@@ -60,7 +65,7 @@
                         <a class="nav-link" href="#">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-success buttons" href="../views/login.php">Login</a>
+                        <a class="nav-link btn btn-outline-primary buttons" href="../views/login.php">Login</a>
                     </li>
 
                 </ul>

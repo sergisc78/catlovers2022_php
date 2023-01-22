@@ -62,7 +62,7 @@ $adultCountCats = $resultLimit->rowCount();
 
 ?>
 
-<h3 class="text-center m-5">Cats for adoption</h3>
+<h3 class="text-center m-5" id="title">Cats for adoption</h3>
 
 <!-- BOOTSTRAP PAGINATION -->
 
@@ -106,12 +106,12 @@ foreach ($resultLimit as $cats) {
 
   <div class="container">
 
-    <div class="card ms-4 mb-5" style="width: 18rem;float:left;width:30%;margin:auto;">
+    <div class="card ms-4 mb-5" style="width: 18rem;float:left;width:30%;margin:auto;" id="catsforadoption">
       <img src="../../assets/images/<?php echo $cats['cat_image'] ?>" class="card-img-top text-center" alt="..." style=" width:  100%;
     height: 300px;">
       <div class="row h-100">
-        <div class="col">
-          <div class="card-body">
+        <div class="col"  >
+          <div class="card-body" >
             <h2 class=" text-center"><?php echo $cats['cat_name'] ?></h2>
           </div>
           <hr>
@@ -136,7 +136,7 @@ foreach ($resultLimit as $cats) {
           </div>
           <hr>
 
-          <a href="#" class="btn btn-success d-grid gap-2 btn-lg">Would you like to adopt me?</a>
+          <a href="adoptCat.php?id=<?php echo $cats['id'] ?>&name=<?php echo $cats['cat_name'] ?>" class="btn btn-success d-grid gap-2 btn-lg">Would you like to adopt me?</a>
           <br>
         </div>
       </div>

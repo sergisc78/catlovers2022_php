@@ -20,8 +20,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-
-   
 </head>
 
 <body>
@@ -41,9 +39,6 @@
                         <a class="nav-link" href="aboutUs.php">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contactUs.php">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link btn btn-outline-primary me-2 buttons" href="./views/login.php">Login</a>
                     </li>
                 </ul>
@@ -52,53 +47,21 @@
         </div>
     </nav>
 
-    <!-- LOGOUT MESSAGE -->
 
-    <?php
-
-    if (!empty($_GET['status'])) {
-        echo '<div class="alert alert-success alert-dismissible fade show fixed-top" role="alert" style="margin-top:150px;width:370px;margin-left: auto;margin-right: 40px;font-size:18px;font-family: Montserrat, sans-serif;">
-        Logout sucessfully !
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>';
-    }
-
-    ?>
-
-    <div class="container" id="welcome">
-        <div class="row">
-            <p class="text-center p-5 mb-0">Are you a catlover?. Would you like to adopt a cat?</p>
-            <p class="text-center">Please, Login or Register. They're waiting for you !</p>
-
-            <div class="d-grid gap-2 d-md-block text-center p-4">
-                <a href="./views/register.php" class="btn btn-success btn btn-lg" type="button">Register</a>
+    <div class="container" id="formContact">
+        <h2 class="text-center">Contact Us</h2>
+        <form action="" method="post" class="formlabels">
+            <label for="name" id="forminput">Name</label>
+            <input type="text" name="name" id="name" >
+            <label for="email" id="forminput">Email</label>
+            <input type="text" name="email" id="email">
+            <div class="mb-3">
+              <label for="" class="form-label">Type a message</label>
+              <textarea class="form-control" name="" id="forminput" rows="3"></textarea>
             </div>
-        </div>
+            <button class="btn btn-primary send" type="submit">Send</button>
+        </form>
     </div>
-
-    <?
-    require_once("./views/templates/footer.php");
-
-    ?>
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
-    <!-- DATATABLES AND JQUERY -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!-- LOGOUT MESSAGE TIMER -->
-
-    <script>
-        $(document).ready(function() {
-
-            setTimeout(function() {
-                $(".alert").alert('close');
-            }, 5000);
-
-        });
-    </script>
 </body>
 
 </html>

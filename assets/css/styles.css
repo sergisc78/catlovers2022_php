@@ -37,15 +37,17 @@ body {
 
 /*LOGIN.PHP,REGISTER.PHP*/
 
-#loginform,#registerform{
-    font-family: 'Roboto Flex', sans-serif;
-    font-size: 20px;
+#loginform,
+#registerform {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
 
 /*ADMIN */
 /*DASHBOARD.PHP */
-#allcats,#allusers {
+#allcats,
+#allusers {
     font-size: 20px;
 }
 
@@ -70,7 +72,60 @@ h4 {
 
 /*EDITCAT.PHP*/
 
-#editcat,#edituser{
+#editcat,
+#edituser {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+}
+
+/* CATS.PHP */
+
+#catsforadoption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+#title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+
+/*ABOUTUS.PHP*/
+
+#aboutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+    
+    
+    
+}
+
+/*CONTACTUS.PHP */
+
+#formContact{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 5%;
+    max-width: 1320px;
+
+}
+.formlabels{
+    max-width: 550px;
+    margin:0 auto;
+    text-align: left;
+    padding: 20px 0px ;
+}
+input{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+.send{
+    width: 100%;
 }

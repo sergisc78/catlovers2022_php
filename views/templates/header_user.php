@@ -21,6 +21,10 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
     <style>
         table thead {
@@ -67,9 +71,6 @@
                     <li class="nav-item">
                         <!-- <a class="nav-link active" aria-current="page" href="../../views/admin/dashboard.php">Home</a>-->
                         <a class="nav-link" href="#">User: <?php echo " " . $_SESSION["username"]; ?></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../users/cats.php">Cats</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link logout" href="../logout.php">Logout</a>
