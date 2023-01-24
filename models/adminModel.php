@@ -83,7 +83,7 @@ class adminModel
                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                </div>';
 
-                header("refresh:5;url=addCat.php");
+                header("refresh:5;url=addCat");
 
                 //INSERT CAT ON DATABASE
 
@@ -137,7 +137,7 @@ class adminModel
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>';
                 
-                header("refresh:6;url=dashboard.php");
+                header("refresh:6;url=dashboard");
 
 
                 //require_once("../views/admin/dashboard.php")
@@ -198,14 +198,14 @@ class adminModel
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>';
 
-                    header("refresh:5;url=dashboard.php");
+                    header("refresh:5;url=dashboard");
                 } else {
                     echo '<div class="alert alert-danger alert-dismissible fade show fixed-top" role="alert" style="margin-top:150px;width:370px;margin-left: auto;margin-right: 40px;font-size:18px;font-family: Montserrat, sans-serif;">
                 Cat can not be updated !. Something wrong happened !
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>';
 
-                    header("refresh:5;url=editCat.php");
+                    header("refresh:5;url=editCat");
                 }
                 
             } else {
@@ -229,14 +229,14 @@ class adminModel
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>';
 
-                    header("refresh:5;url=dashboard.php");
+                    header("refresh:5;url=dashboard");
                 } else {
                     echo '<div class="alert alert-danger alert-dismissible fade show fixed-top" role="alert" style="margin-top:150px;width:370px;margin-left: auto;margin-right: 40px;font-size:18px;font-family: Montserrat, sans-serif;">
                 Cat can not be updated !. Something wrong happened !
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>';
 
-                    header("refresh:5;url=editCat.php");
+                    header("refresh:5;url=editCat");
                 }
             }
         }

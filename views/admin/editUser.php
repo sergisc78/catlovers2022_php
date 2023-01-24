@@ -28,7 +28,7 @@ $role = $_GET['role'];
             <div class="card">
                 <div class="card-body">
                     <form class="text-center" method="post">
-                        <h3 class="mb-4 text-center fs-1">Edit User: <?php echo $username?></h3><a href="users.php" class="btn btn-primary">Back</a>
+                        <h3 class="mb-4 text-center fs-1">Edit User: <?php echo $username?></h3><a href="users" class="btn btn-primary">Back</a>
                         <div class="form-group mt-3">
                             <!-- <label  for="id" class="form-label">ID</label>-->
                             <input type="hidden" class="form-control" value="<?php echo $id ?>" name="id" id="id" placeholder="ID">

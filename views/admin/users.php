@@ -49,11 +49,11 @@ require_once("../../controllers/allUsersController.php");
                                 
 
                                 <!-- EDIT USER -->
-                                <td><a href=" editUser.php?id=<?php echo $user['id'] ?>&username=<?php echo $user['username'] ?>&roleId=<?php echo $user['role_id']?>&role=<?php echo $user['role'] ?>" class="btn btn-small btn-warning"><i class="fa-solid fa-pen-to-square edit" title="Edit User Role"></i></a>
+                                <td><a href=" editUser?id=<?php echo $user['id'] ?>&username=<?php echo $user['username'] ?>&roleId=<?php echo $user['role_id']?>&role=<?php echo $user['role'] ?>" class="btn btn-small btn-warning"><i class="fa-solid fa-pen-to-square edit" title="Edit User Role"></i></a>
 
                                     
                                     <!-- DELETE USER  -->
-                                <a href="deleteUser.php?id=<?php echo $user['id'] ?>" data-id="<?php echo $user['id'] ?>" class="btn btn-small btn-danger deleteButton" name="delete" id="delete"><i class="fa-solid fa-trash delete" title="Delete User"></i></button>
+                                <a href="deleteUser?id=<?php echo $user['id'] ?>" data-id="<?php echo $user['id'] ?>" class="btn btn-small btn-danger deleteButton" name="delete" id="delete"><i class="fa-solid fa-trash delete" title="Delete User"></i></button>
                                     
                                 </td>
                             </tr>

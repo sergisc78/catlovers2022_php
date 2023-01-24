@@ -33,13 +33,13 @@
             <div class="float-right " id="navbarSupportedContent">
                 <ul class="navbar-nav me-4 mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/catsmvc">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="aboutUs.php">About Us</a>
+                        <a class="nav-link" href="aboutUs">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-primary me-2 buttons" href="./views/login.php">Login</a>
+                        <a class="nav-link btn btn-outline-primary me-2 buttons" href="./views/login">Login</a>
                     </li>
                 </ul>
 
@@ -53,8 +53,10 @@
         <form action="" method="post" class="formlabels">
             <label for="name" id="forminput">Name</label>
             <input type="text" name="name" id="name" >
+            <br>
             <label for="email" id="forminput">Email</label>
-            <input type="text" name="email" id="email">
+            <input type="email" name="email" id="email">
+            <br>
             <div class="mb-3">
               <label for="" class="form-label">Type a message</label>
               <textarea class="form-control" name="" id="forminput" rows="3"></textarea>

@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="card-footer bg-dark text-white p-4 fixed-bottom">
-    <p class="text-center">Sergi Sánchez @2022</p>
+    <p class="text-center"> @ Sergi Sánchez 2023</p>
   </div>
 
 </body>

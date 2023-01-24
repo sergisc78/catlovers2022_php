@@ -31,14 +31,14 @@
             <div class="float-right " id="navbarSupportedContent">
                 <ul class="navbar-nav me-4 mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/catsmvc">Home</a>
                     </li>
                    
                     <li class="nav-item">
-                        <a class="nav-link" href="contactUs.php">Contact Us</a>
+                        <a class="nav-link" href="contactUs">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-primary me-2 buttons" href="./views/login.php">Login</a>
+                        <a class="nav-link btn btn-outline-primary me-2 buttons" href="./login">Login</a>
                     </li>
                 </ul>
 

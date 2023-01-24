@@ -43,7 +43,7 @@ $cat_description = $_GET['descr'];
             <div class="card">
                 <div class="card-body">
                     <form class="text-center" method="post" enctype="multipart/form-data">
-                        <h3 class="mb-4 text-center fs-1">View / Edit <?php echo $cat_name ?></h3><a href="dashboard.php" class="btn btn-primary">Back</a>
+                        <h3 class="mb-4 text-center fs-1">View / Edit <?php echo $cat_name ?></h3><a href="dashboard" class="btn btn-primary">Back</a>
                         <div class="form-group mt-3">
                             <input type="hidden" class="form-control" value="<?php echo $id ?>" name="id" id="id" placeholder="ID">
                         </div>

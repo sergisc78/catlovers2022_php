@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+RewriteCond %{DOCUMENT_ROOT}/views/$1.php -f [NC]
+RewriteRule ^(.*)$ views/$1.php [L]
+
+</IfModule>

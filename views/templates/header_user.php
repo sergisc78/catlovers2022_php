@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cats</title>
+    <title>User Dashboard</title>
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -73,7 +73,7 @@
                         <a class="nav-link" href="#">User: <?php echo " " . $_SESSION["username"]; ?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link logout" href="../logout.php">Logout</a>
+                        <a class="nav-link logout" href="../logout">Logout</a>
                     </li>
 
 

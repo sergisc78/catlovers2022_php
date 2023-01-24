@@ -37,12 +37,12 @@ $pages = ceil($countCats / $size_page);
 
 if (!$_GET) { // ALWAYS REDIRECT TO PAGE=1
 
-  header("Location:cats.php?page=1");
+  header("Location:cats?page=1");
 }
 
 if ($_GET['page'] > $size_page || $_GET['page'] <= 0 ) { // IF PAGE DOESN´T EXIST, REDIRECT TO PAGE=1
 
-  header("Location:cats.php?page=1");
+  header("Location:cats?page=1");
 }
 
 $beginToCount = ($_GET['page'] - 1) * $size_page;
@@ -70,19 +70,19 @@ $adultCountCats = $resultLimit->rowCount();
 
   <ul class="pagination justify-content-end me-5 mb-5">
     <li class="page-item <?php echo $_GET['page'] <= 1 ? 'disabled' : '' ?>">
-      <a class="page-link" href="cats.php?page=<?php echo $_GET['page'] - 1 ?>">Previous</a>
+      <a class="page-link" href="cats?page=<?php echo $_GET['page'] - 1 ?>">Previous</a>
     </li>
 
     <?php for ($i = 0; $i < $pages; $i++) : ?>
       <li class="page-item <?php echo $_GET['page'] == $i + 1 ? 'active' : '' ?>">
-        <a class="page-link" href="cats.php?page=<?php echo $i + 1 ?>">
+        <a class="page-link" href="cats?page=<?php echo $i + 1 ?>">
           <?php echo $i + 1 ?>
         </a>
       </li>
     <?php endfor ?>
 
     <li class="page-item" <?php echo $_GET['page'] >= $pages ? 'disabled' : '' ?>>
-      <a class="page-link" href="cats.php?page=<?php echo $_GET['page'] + 1 ?>">Next</a>
+      <a class="page-link" href="cats?page=<?php echo $_GET['page'] + 1 ?>">Next</a>
     </li>
   </ul>
 </nav>
@@ -136,7 +136,7 @@ foreach ($resultLimit as $cats) {
           </div>
           <hr>
 
-          <a href="adoptCat.php?id=<?php echo $cats['id'] ?>&name=<?php echo $cats['cat_name'] ?>" class="btn btn-success d-grid gap-2 btn-lg">Would you like to adopt me?</a>
+          <a href="adoptCat?id=<?php echo $cats['id'] ?>&name=<?php echo $cats['cat_name'] ?>" class="btn btn-success d-grid gap-2 btn-lg">Would you like to adopt me?</a>
           <br>
         </div>
       </div>

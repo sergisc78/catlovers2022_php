@@ -48,7 +48,7 @@ class userModel
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
               </div>';
 
-                header('refresh:8,url=register.php');
+                header('refresh:8,url=register');
             }
 
             //INSERT USER INTO DATABASE
@@ -69,7 +69,7 @@ class userModel
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
               </div>';
 
-                header("refresh:8,url=login.php");
+                header("refresh:8,url=login");
             }
         }
     }
@@ -120,7 +120,7 @@ class userModel
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                            </div>';
 
-                            header("refresh:5,url=../views/admin/dashboard.php");
+                            header("refresh:5,url=../views/admin/dashboard");
                         } else { // IF ROLE IS USER
 
                             echo '<div class="alert alert-success alert-dismissible fade show fixed-top" role="alert" style="margin-top:150px;width:370px;margin-left: auto;margin-right: 40px;font-size:18px;font-family: Montserrat, sans-serif;">
@@ -128,14 +128,14 @@ class userModel
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                           </div>';
 
-                            header("refresh:5,url=../views/users/cats.php");
+                            header("refresh:5,url=../views/users/cats");
                         }
                     } else {
                         echo '<div class="alert alert-success alert-dismissible fade show fixed-top" role="alert" style="margin-top:150px;width:370px;margin-left: auto;margin-right: 40px;font-size:18px;font-family: Montserrat, sans-serif;">
                         Username or password wrong !
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                       </div>';
-                        header('refresh:5,url=login.php');
+                        header('refresh:5,url=login');
                     }
                 }
             }

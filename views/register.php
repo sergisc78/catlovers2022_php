@@ -56,16 +56,16 @@
             <div class="float-right " id="navbarSupportedContent">
                 <ul class="navbar-nav me-4 mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="../aboutUs">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="../contactUs">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-primary buttons" href="../views/login.php">Login</a>
+                        <a class="nav-link btn btn-outline-primary buttons" href="../views/login">Login</a>
                     </li>
 
                 </ul>

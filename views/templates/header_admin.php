@@ -85,13 +85,13 @@
                         <a class="nav-link" href="#">User: <?php echo " " . $_SESSION["username"]; ?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="users.php">Users</a>
+                        <a class="nav-link" href="users">Users</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../../views/admin/dashboard.php">Cats</a>
+                        <a class="nav-link" href="../../views/admin/dashboard">Cats</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link logout" href="../logout.php">Logout</a>
+                        <a class="nav-link logout" href="../logout">Logout</a>
                     </li>
 
 

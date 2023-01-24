@@ -83,12 +83,29 @@ h4 {
 #catsforadoption {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+   
 }
 
 #title {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
 }
+
+/*ADOPTCAT.PHP*/
+
+#adoptMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+}
+#back{
+   
+  margin: auto;
+}
+
+
 
 
 /*ABOUTUS.PHP*/

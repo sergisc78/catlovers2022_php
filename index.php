@@ -35,16 +35,16 @@
             <div class="float-right " id="navbarSupportedContent">
                 <ul class="navbar-nav me-4 mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="aboutUs.php">About Us</a>
+                        <a class="nav-link" href="aboutUs">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contactUs.php">Contact Us</a>
+                        <a class="nav-link" href="contactUs">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-primary me-2 buttons" href="./views/login.php">Login</a>
+                        <a class="nav-link btn btn-outline-primary me-2 buttons" href="./views/login">Login</a>
                     </li>
                 </ul>
 
@@ -71,7 +71,7 @@
             <p class="text-center">Please, Login or Register. They're waiting for you !</p>
 
             <div class="d-grid gap-2 d-md-block text-center p-4">
-                <a href="./views/register.php" class="btn btn-success btn btn-lg" type="button">Register</a>
+                <a href="./views/register" class="btn btn-success btn btn-lg" type="button">Register</a>
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@ require_once("/opt/lampp/htdocs/catsmvc/config/config.php");
 session_destroy();
 
 
-header("Location:../index.php?status=logout");
+header("Location:../?status=logout");
 
 
 
