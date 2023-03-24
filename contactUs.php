@@ -33,7 +33,7 @@
             <div class="float-right " id="navbarSupportedContent">
                 <ul class="navbar-nav me-4 mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/catsmvc">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../catsmvc/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="aboutUs">About Us</a>

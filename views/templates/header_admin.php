@@ -59,6 +59,8 @@
 
     <?php
 
+    ob_start();
+
     // GET CONNECTION AND SHOW USERNAME AFTER LOGIN
 
     require_once("../../config/config.php");

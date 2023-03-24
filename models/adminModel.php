@@ -1,5 +1,7 @@
 <?php
 
+ob_start();
+
 require_once("../../config/config.php");
 
 
@@ -39,7 +41,7 @@ class adminModel
 
 
         // SOLUTION FOR MESSAGE: Cannot modify header information - headers already sent by
-        ob_start();
+       
 
         $cat_name = isset($_POST['cat_name']) ? $_POST['cat_name'] : '';
         $cat_sex = isset($_POST['cat_sex']) ? $_POST['cat_sex'] : '';
@@ -60,7 +62,7 @@ class adminModel
             $type = isset($_FILES['cat_image']['type']) ? $_FILES['cat_image']['type'] : '';
             $size = isset($_FILES['cat_image']['size']) ? $_FILES['cat_image']['size'] : '';
             $temp = isset($_FILES['cat_image']['tmp_name']) ? $_FILES['cat_image']['tmp_name'] : '';
-            $location = '/opt/lampp/htdocs/catsmvc/assets/images/' . $cat_image;
+            $location = '/opt/lampp/htdocs/php/catsmvc/assets/images/' . $cat_image;
 
 
             // $cat_image = $_POST['cat_image'];
@@ -107,7 +109,7 @@ class adminModel
                 if (move_uploaded_file($temp, $location)) {
 
                     // WE CHANGE PERMITS
-                    chmod('/opt/lampp/htdocs/catsmvc/assets/images/' . $cat_image, 777);
+                    chmod('/opt/lampp/htdocs/php/catsmvc/assets/images/' . $cat_image, 777);
 
                 } else { // ERROR
 

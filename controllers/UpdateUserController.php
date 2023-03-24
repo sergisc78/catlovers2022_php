@@ -1,11 +1,11 @@
 <?php
 
-require_once("/opt/lampp/htdocs/catsmvc/models/allUsersModel.php");
+require_once("/opt/lampp/htdocs/php/catsmvc/models/allUsersModel.php");
 
 $updateInfoUser= new allUsersModel();
 
 $user= $updateInfoUser->updateUser();
 
 
-require_once("/opt/lampp/htdocs/catsmvc/views/admin/editUser.php");
+require_once("/opt/lampp/htdocs/php/catsmvc/views/admin/editUser.php");
 

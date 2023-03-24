@@ -1,6 +1,6 @@
 <?php
 
-require_once("/opt/lampp/htdocs/catsmvc/config/config.php");
+require_once("/opt/lampp/htdocs/php/catsmvc/config/config.php");
 
 
 class allUsersModel
